@@ -1,8 +1,3 @@
-Here's the complete **README.md** file for your project:
-
----
-
-```markdown
 # Weather App 🌦️  
 Made with ❤️ by [Danyal Rana](https://mdrana.com)
 
