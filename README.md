@@ -4,7 +4,7 @@ Here's the complete **README.md** file for your project:
 
 ```markdown
 # Weather Dashboard 🌦️  
-Made with ❤️ by [M.D. Rana](https://mdrana.com)
+Made with ❤️ by [Danyal Rana](https://mdrana.com)
 
 ## Introduction
 The Weather Dashboard is an interactive web application that allows users to view the current weather and a 5-day forecast for any city. Built using JavaScript, HTML, and CSS, the app fetches real-time data from the OpenWeather API. It features a clean, responsive UI with options to toggle temperature units, view search history, and see weather-specific background images.
@@ -55,7 +55,7 @@ Follow these steps to run the Weather Dashboard on your local machine.
 
 ### 1. Clone the Repository
    ```bash
-   git clone https://github.com/your-username/weather-dashboard.git
+   git clone https://github.com/Danyal-Rana/Weather-App.git
    ```
 
 ### 2. Navigate to the Project Directory
@@ -107,13 +107,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ---
 
 ## Contact
-For questions or feedback, feel free to contact [M.D. Rana](https://mdrana.com).
+For questions or feedback, feel free to contact [Danyal Rana](https://mdrana.com).
 ```
-
----
-
-### Notes:
-- Be sure to replace `https://github.com/your-username/weather-dashboard.git` with the actual URL of your GitHub repository.
-- Update `YOUR_API_KEY` in `src/js/api.js` with your OpenWeather API key before running the project.
-
-This README provides a detailed overview of the project structure, setup, and usage. Let me know if you need additional sections or modifications!
