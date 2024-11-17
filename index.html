@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/container.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/currentWeather.css">
+    <link rel="stylesheet" href="src/css/forecast.css">
+    <link rel="stylesheet" href="src/css/popup.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <script src="src/js/main.js" type="module" defer></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="upper">
+            <div class="upperTop">
+                <div class="search-bar">
+                    <input type="text" id="cityInput" placeholder="Enter City Name">
+                    <button id="searchBtn" class="search-icon"></button>
+                </div>
+                <button id="viewHistoryBtn" class="view-history">View History</button>
+                <div class="temperature-unit">
+                    <span id="unitDisplay">Celsius</span>
+                    <button id="unitToggle" class="dropdown-icon"></button>
+                </div>
+            </div>
+            <div id="currentWeather" class="upperBottom">
+                <h1>Islamabad</h1>
+                <div class="current-weather">
+                    <span class="temperature">25°</span>
+                    <span class="weather-description">Clear</span>
+                </div>
+                <div class="additional-info">
+                    <span>Sun 30° 20°</span>
+                    <span>Air quality: 20 - Good</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="bottomLeft">
+                <h2>Weather Details</h2>
+                <div id="weatherDetails" class="weather-details">
+                    <!-- Weather details are dynamically inserted here -->
+                </div>
+            </div>
+            <div class="bottomRight">
+                <h2>5-day weather forecast</h2>
+                <div id="forecast" class="forecast">
+                    <!-- Forecast are dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- History Pop-up -->
+    <div id="historyPopup" class="popup">
+        <div class="popup-content">
+            <h2>Search History</h2>
+            <div id="searchHistory" class="search-history"></div>
+            <button id="clearHistoryBtn" class="clear-history">Clear History</button>
+            <button id="closePopupBtn" class="close-popup">Close</button>
+        </div>
+    </div>
+</body>
+
+</html>
