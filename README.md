@@ -3,11 +3,11 @@ Here's the complete **README.md** file for your project:
 ---
 
 ```markdown
-# Weather Dashboard 🌦️  
+# Weather App 🌦️  
 Made with ❤️ by [Danyal Rana](https://mdrana.com)
 
 ## Introduction
-The Weather Dashboard is an interactive web application that allows users to view the current weather and a 5-day forecast for any city. Built using JavaScript, HTML, and CSS, the app fetches real-time data from the OpenWeather API. It features a clean, responsive UI with options to toggle temperature units, view search history, and see weather-specific background images.
+The Weather App is an interactive web application that allows users to view the current weather and a 5-day forecast for any city. Built using JavaScript, HTML, and CSS, the app fetches real-time data from the OpenWeather API. It features a clean, responsive UI with options to toggle temperature units, view search history, and see weather-specific background images.
 
 ---
 
@@ -15,7 +15,7 @@ The Weather Dashboard is an interactive web application that allows users to vie
 The project is organized with a modular structure, separating logic and functionality into individual files for easy maintenance.
 
 ```plaintext
-weather-dashboard/
+weather-App/
 ├── index.html                   # Main HTML file
 ├── src/
 │   ├── css/
@@ -51,7 +51,7 @@ This project’s UI design was inspired by the [Weather Website Design](https://
 ---
 
 ## Installation and Setup
-Follow these steps to run the Weather Dashboard on your local machine.
+Follow these steps to run the Weather App on your local machine.
 
 ### 1. Clone the Repository
    ```bash
@@ -60,7 +60,7 @@ Follow these steps to run the Weather Dashboard on your local machine.
 
 ### 2. Navigate to the Project Directory
    ```bash
-   cd weather-dashboard
+   cd weather-App
    ```
 
 ### 3. Open the Project in Your Preferred Code Editor
