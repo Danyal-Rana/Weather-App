@@ -10,7 +10,7 @@ export function displayCurrentWeather(data, isMetric) {
             <span class="weather-description">${data.weather[0].description}</span>
         </div>
         <div class="additional-info">
-            <span>${new Date().toLocaleDateString('en-US', { weekday: 'short' })} ${Math.round(data.main.temp_max)}° ${Math.round(data.main.temp_min)}°</span>
+            <span>${new Date().toLocaleDateString('en-US', { weekday: 'short' })} ${Math.round(data.main.temp_max)}° - ${Math.round(data.main.temp_min)}°</span>
             <span>Air quality: ${data.main.aqi || 'N/A'} - Good</span>
         </div>
     `;
@@ -46,8 +46,4 @@ export function displayWeatherDetails(data, isMetric) {
             <span>${data.main.pressure} hPa</span>
         </div>
     `;
-}
-
-export default function Component() {
-    return null; // This is a module file, not a React component
 }
