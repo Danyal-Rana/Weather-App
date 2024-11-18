@@ -67,14 +67,13 @@ Follow these steps to run the Weather App on your local machine.
    - Replace `YOUR_API_KEY` with your API key from [OpenWeather](https://openweathermap.org/api).
 
 ### 5. Start a Local Server
-   - You can use the **Live Server** extension in VS Code or start a simple local server:
-     ```bash
-     # Using Python
-     python3 -m http.server
-     ```
+   - To view the project locally, you need to run a local server. You can use the **Live Server** extension in **VS Code** for a quick setup:
+     1. Install the **Live Server** extension in VS Code.
+     2. Right-click on `index.html` in VS Code and select **Open with Live Server**.
 
 ### 6. Open `index.html` in Your Browser
-   - Navigate to `http://localhost:8000` if using Python, or the address provided by your local server.
+   - Once the local server is running, open your browser and navigate to the address provided by the server. If you’re using **Live Server**, the address is usually `http://localhost:5500` or another port number.
+   - You should now see your project running in the browser.
 
 ---
 
