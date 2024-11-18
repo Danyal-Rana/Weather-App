@@ -30,7 +30,7 @@ cityInput.addEventListener('keypress', (e) => {
 
 window.addEventListener('load', () => {
     displaySearchHistory(searchedCities, searchCity);
-    handleSearch('Islamabad');
+    handleSearch('Multan');
 });
 
 async function handleSearch(city = cityInput.value.trim()) {
@@ -105,10 +105,6 @@ function displayError(message) {
     const forecast = document.getElementById('forecast');
     
     currentWeather.innerHTML = `<div class="error-message">${message}</div>`;
-    weatherDetails.innerHTML = '';
-    forecast.innerHTML = '';
-}
-
-export default function Component() {
-    return null; // This is a module file, not a React component
+    weatherDetails.innerHTML = 'No Weather Details avilable';
+    forecast.innerHTML = 'No Forecast Data avilable';
 }
