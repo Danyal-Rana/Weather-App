@@ -12,7 +12,3 @@ export async function fetchForecastData(city, isMetric) {
     if (!response.ok) throw new Error('Forecast data not available.');
     return await response.json();
 }
-
-// export default function Component() {
-//     return null; // This is a module file, not a React component
-// }

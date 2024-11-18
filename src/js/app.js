@@ -52,11 +52,38 @@ async function handleSearch(city = cityInput.value.trim()) {
     }
 }
 
+// function toggleUnit() {
+//     isMetric = !isMetric;
+//     unitDisplay.textContent = isMetric ? 'Celsius' : 'Fahrenheit';
+//     const myToggle = document.getElementsByClassName('fa-solid');
+//     myToggle.classList.add('fa-toggle-off');
+//     myToggle.classList.remove('fa-toggle-on');
+//     if (cityInput.value.trim()) handleSearch();
+// }
+
 function toggleUnit() {
+    // Toggle the isMetric flag
     isMetric = !isMetric;
+
+    // Update the unit display text
     unitDisplay.textContent = isMetric ? 'Celsius' : 'Fahrenheit';
+
+    // Select the toggle icon element
+    const myToggle = document.getElementsByClassName('toggle')[0];
+
+    // Toggle the icon class based on isMetric state
+    if (isMetric) {
+        myToggle.classList.add('fa-toggle-off');
+        myToggle.classList.remove('fa-toggle-on');
+    } else {
+        myToggle.classList.add('fa-toggle-on');
+        myToggle.classList.remove('fa-toggle-off');
+    }
+
+    // Trigger search if there’s a city name in the input field
     if (cityInput.value.trim()) handleSearch();
 }
+
 
 function openHistoryPopup() {
     historyPopup.style.display = 'block';
