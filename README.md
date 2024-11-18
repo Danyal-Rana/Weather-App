@@ -10,19 +10,21 @@ The Weather App is an interactive web application that allows users to view the 
 The project is organized with a modular structure, separating logic and functionality into individual files for easy maintenance.
 
 ```plaintext
-weather-App/
+Weather-App/
 ├── index.html                   # Main HTML file
 ├── src/
-│   ├── css/
-│   │   └── main.css             # Combined CSS for global and component-specific styles
-│   │
+│   ├── style.css                # Combined CSS for global and component-specific styles
 │   ├── js/
-│   │   ├── main.js              # Initializes the app, adds event listeners
-│   │   ├── api.js               # Fetches weather and forecast data from the OpenWeather API
-│   │   ├── display.js           # Renders data for current weather, forecast, and errors
-│   │   ├── handlers.js          # Manages event handlers (e.g., search, unit toggle)
-│   │   ├── storage.js           # Handles local storage for search history
-│   │   └── utils.js             # Utility functions (e.g., wind direction calculation)
+│   │   ├── app.js               # Initializes the app, adds event listeners
+│   │   ├── api/                 # Contains API-related logic
+│   │   │   └── weatherApi.js    # Fetches weather and forecast data from the OpenWeather API
+│   │   ├── components/          # Contains components for displaying weather data
+│   │   │   ├── currentWeather.js # Renders current weather information
+│   │   │   ├── forecast.js      # Renders the weather forecast
+│   │   │   └── searchHistory.js # Displays the search history
+│   │   ├── utils/               # Utility functions used throughout the app
+│   │   │   ├── dateUtils.js     # Handles date-related utilities (e.g., getting the day of the week)
+│   │   │   └── weatherUtils.js  # Helper functions for weather data (e.g., formatting temperature)
 │   │
 │   └── images/                  # Contains background images and icons for different weather types
 │
@@ -55,7 +57,7 @@ Follow these steps to run the Weather App on your local machine.
 
 ### 2. Navigate to the Project Directory
    ```bash
-   cd weather-App
+   cd Weather-App
    ```
 
 ### 3. Open the Project in Your Preferred Code Editor
