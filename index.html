@@ -8,6 +8,7 @@
     <!-- <link rel="stylesheet" href="css/main.css"> -->
     <link rel="stylesheet" href="src/style.css">
     <script src="src/js/app.js" type="module" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
@@ -16,13 +17,17 @@
         <div class="upper">
             <div class="upperTop">
                 <div class="search-bar">
-                    <input type="text" id="cityInput" placeholder="Enter City Name">
-                    <button id="searchBtn" class="search-icon"></button>
+                    <input type="text" id="cityInput" placeholder="Enter City Name..">
+                    <button id="searchBtn" class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </div>
                 <button id="viewHistoryBtn" class="view-history">View History</button>
                 <div class="temperature-unit">
                     <span id="unitDisplay">Celsius</span>
-                    <button id="unitToggle" class="dropdown-icon"></button>
+                    <button id="unitToggle" class="dropdown-icon">
+                        <i class="fa-solid fa-toggle-on"></i>
+                    </button>
                 </div>
             </div>
             <div id="currentWeather" class="upperBottom">
