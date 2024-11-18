@@ -14,7 +14,3 @@ export function displayForecast(data) {
         </div>
     `).join('');
 }
-
-export default function Component() {
-    return null; // This is a module file, not a React component
-}

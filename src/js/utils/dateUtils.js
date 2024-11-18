@@ -1,5 +1,5 @@
 export function getDayOfWeek(date) {
-    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     return daysOfWeek[date.getDay()];
 }
 
@@ -10,3 +10,17 @@ export function getNextFiveDays() {
         return getDayOfWeek(new Date(Date.now() + (i + 1) * 24 * 60 * 60 * 1000));
     });
 }
+
+// export function getDayOfWeek(date) {
+//     const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+//     return daysOfWeek[date.getDay()];
+// }
+
+// export function getNextFiveDays() {
+//     const today = new Date();
+//     return Array.from({length: 5}, (_, i) => {
+//         const nextDay = new Date(today);
+//         nextDay.setDate(today.getDate() + (i + 1));
+//         return getDayOfWeek(nextDay);
+//     });
+// }
