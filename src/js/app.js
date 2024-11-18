@@ -52,15 +52,6 @@ async function handleSearch(city = cityInput.value.trim()) {
     }
 }
 
-// function toggleUnit() {
-//     isMetric = !isMetric;
-//     unitDisplay.textContent = isMetric ? 'Celsius' : 'Fahrenheit';
-//     const myToggle = document.getElementsByClassName('fa-solid');
-//     myToggle.classList.add('fa-toggle-off');
-//     myToggle.classList.remove('fa-toggle-on');
-//     if (cityInput.value.trim()) handleSearch();
-// }
-
 function toggleUnit() {
     // Toggle the isMetric flag
     isMetric = !isMetric;
