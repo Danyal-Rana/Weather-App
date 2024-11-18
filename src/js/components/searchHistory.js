@@ -18,7 +18,3 @@ export function clearSearchHistory() {
     localStorage.removeItem('searchedCities');
     return [];
 }
-
-export default function Component() {
-    return null; // This is a module file, not a React component
-}
