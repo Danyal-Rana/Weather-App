@@ -98,6 +98,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ---
 
 ## Acknowledgments
+- **Weather Data**: Weather data is powered by the free API service provided by [OpenWeather](https://openweathermap.org/).
 - **UI Inspiration**: The design was inspired by the [Weather Website Design](https://www.figma.com/community/file/1288147890001374433/weather-website) on Figma.
 - **Images**: Background images are sourced from [Unsplash](https://unsplash.com).
 
